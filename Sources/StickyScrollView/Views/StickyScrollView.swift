@@ -124,7 +124,3 @@ public struct StickyScrollView<Content: View>: View {
     }
     .clipped()
 }
-
-#Preview {
-    ExampleView()
-}

@@ -6,7 +6,7 @@
 //
 
 /// The edge whichy a view should stick to
-public enum StickyEdge: CaseIterable {
+public enum StickyEdge: CaseIterable, Sendable {
     /// The top (vertical scroll) or leading (horizontal scroll) edge
     case topLeading
     

@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// Data representation of a sticky frame and the edge it sticks to
-struct StickyFrame: Equatable {
+struct StickyFrame: Equatable, Sendable {
     let frame: CGRect
     let edge: StickyEdge
 }
